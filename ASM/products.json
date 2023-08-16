@@ -1,0 +1,306 @@
+ [
+    {
+        "id":1,
+        "name":"DINKUM",
+        "photo":"18.png",
+        "price":150000,
+        "GiaBH":"150,000",
+        "Giacu":"188,000",
+        "infor":"34.png",
+        "photos":"35.png",
+        "loai":"game1"
+    },
+    {
+        "id":2,
+        "name":"AGE OF EMPIRES",
+        "photo":"30.png",
+        "price":288000,
+        "GiaBH":"288,000",
+        "Giacu":"480,000",
+        "infor":"38.png",
+        "photos":"39.png",
+        "loai":"game1"
+    },
+    {
+        "id":3,
+        "name":"GOTHAM KNIGHTS",
+        "photo":"31.png",
+        "price": 990000,
+        "GiaBH":"990,000",
+        "Giacu":"1,315,000",
+        "infor":"36.png",
+        "photos":"37.png",
+        "loai":"game1"
+    },
+    {
+        "id":4,
+        "name":"RAGNA ROCK",
+        "photo":"21.png",
+        "price":132000,
+        "GiaBH":"132,000",
+        "Giacu":"220,000",
+        "infor":"41.png",
+        "photos":"40.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":5,
+        "name":"UNPLUGGED",
+        "photo":"22.png",
+        "price":88000,
+        "GiaBH":"88,000",
+        "Giacu":"220,000",
+        "infor":"43.png",
+        "photos":"42.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":6,
+        "name":"INTO RADIUS",
+        "photo":"23.png",
+        "price":250000,
+        "GiaBH":"250,000",
+        "Giacu":"250,000",
+        "infor":"45.png",
+        "photos":"44.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":7,
+        "name":"JOB SIMULATOR",
+        "photo":"24.png",
+        "price":188000,
+        "GiaBH":"188,000",
+        "Giacu":"188,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":8,
+        "name":"PROJECT ZOMBOID",
+        "photo":"25.png",
+        "price":126000,
+        "GiaBH":126000,
+        "Giacu":188000,
+        "infor":"49.png",
+        "photos":"48.png",
+        "loai":"game3"
+    },
+    {
+        "id":9,
+        "name":"SEA OF THIEVES",
+        "photo":"26.png",
+        "price":155000,
+        "GiaBH":"155,000",
+        "Giacu":"310,000",
+        "infor":"51.png",
+        "photos":"50.png",
+        "loai":"game3"
+    },
+    {
+        "id":10,
+        "name":"THE KING OF FIGHTER",
+        "photo":"27.png",
+        "price":157000,
+        "GiaBH":"157,000",
+        "Giacu":"630,000",
+        "infor":"53.png",
+        "photos":"52.png",
+        "loai":"game3"
+    },
+    {
+        "id":11,
+        "name":"RAFT",
+        "photo":"28.png",
+        "price":188000,
+        "GiaBH":"188,000",
+        "Giacu":"188,000",
+        "infor":"55.png",
+        "photos":"54.png",
+        "loai":"game3"
+    },
+    {
+        "id":12,
+        "name":"BLOOD TRAIL",
+        "photo":"59.png",
+        "price":220000,
+        "GiaBH":"220,000",
+        "Giacu":"220,000",
+        "infor":"76.png",
+        "photos":"75.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":13,
+        "name":"BEAT SABER",
+        "photo":"61.png",
+        "price":250000,
+        "GiaBH":"250,000",
+        "Giacu":"250,000",
+        "infor":"82.png",
+        "photos":"81.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":14,
+        "name":"PAVLOV",
+        "photo":"62.png",
+        "price":220000,
+        "GiaBH":"220,000",
+        "Giacu":"220,000",
+        "infor":"78.png",
+        "photos":"77.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":15,
+        "name":"HALF-LIFE",
+        "photo":"65.png",
+        "price":705000,
+        "GiaBH":"705,000",
+        "Giacu":"705,000",
+        "infor":"88.png",
+        "photos":"87.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":16,
+        "name":"SURVIVAL NATION",
+        "photo":"66.png",
+        "price":385000,
+        "GiaBH":"385,000",
+        "Giacu":"385,000",
+        "infor":"86.png",
+        "photos":"85.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":17,
+        "name":"VTOL VR",
+        "photo":"67.png",
+        "price":250000,
+        "GiaBH":"250,000",
+        "Giacu":"250,000",
+        "infor":"84.png",
+        "photos":"83.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":18,
+        "name":"HELL SPLIT",
+        "photo":"68.png",
+        "price":220000,
+        "GiaBH":"220,000",
+        "Giacu":"220,000",
+        "infor":"80.png",
+        "photos":"79.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":19,
+        "name":"SKYRIM",
+        "photo":"69.png",
+        "price":1350000,
+        "GiaBH":"1,350,000",
+        "Giacu":"1,350,000",
+        "infor":"90.png",
+        "photos":"89.png",
+        "loai":"VR GAMES"
+    },
+    {
+        "id":20,
+        "name":"AMONG US",
+        "photo":"56.png",
+        "price":120000,
+        "GiaBH":"120,000",
+        "Giacu":"120,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    
+    {
+        "id":21,
+        "name":"CONTRACTORS",
+        "photo":"57.png",
+        "price":188000,
+        "GiaBH":"188,000",
+        "Giacu":"188,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    
+    
+    {
+        "id":22,
+        "name":"HOT DOGS",
+        "photo":"60.png",
+        "price":188000,
+        "GiaBH":"188,000",
+        "Giacu":"188,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    {
+        "id":23,
+        "name":"DIVINITY II",
+        "photo":"70.png",
+        "price":140000,
+        "GiaBH":"140,000",
+        "Giacu":"350,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    {
+        "id":24,
+        "name":"PHASMOPHOBIA",
+        "photo":"71.png",
+        "price":160000,
+        "GiaBH":"160,000",
+        "Giacu":"160,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    {
+        "id":25,
+        "name":"STARDEW VALLEY",
+        "photo":"72.png",
+        "price":165000,
+        "GiaBH":"165,000",
+        "Giacu":"165,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    {
+        "id":26,
+        "name":"CIVILIZATION VI",
+        "photo":"73.png",
+        "price":100000,
+        "GiaBH":"100,000",
+        "Giacu":"999,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    },
+    {
+        "id":27,
+        "name":"HOT DOGS",
+        "photo":"74.png",
+        "price":188000,
+        "GiaBH":"188,000",
+        "Giacu":"188,000",
+        "infor":"47.png",
+        "photos":"46.png",
+        "loai":"game3"
+    }
+    
+    
+
+
+ ]

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="ASM.css"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container slide">
+   
+      
+        <p style="color: White;">FEATURED & RECOMMENDED</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="">
+                <img class=" d-block w-100 image-fluid" src="images/slide1.png" alt="First slide">
+              </a>
+              
+            </div>
+            <div class="carousel-item">
+              <a href="">
+                <img class=" d-block w-100 image-fluid" src="images/slide2.png" alt="Second slide">
+              </a>
+              
+            </div>
+            <div class="carousel-item">
+              <a href="">
+                <img class=" d-block w-100 image-fluid" src="images/slide3.png" alt="Third slide">
+              </a>
+              
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <br><br>
+        <div>
+          <p style="color: White;">SPECIAL OFFERS</p>
+          <div class="row">
+            <div class="col-md-3 ml-5" ng-repeat="p in products | filter : {loai : 'game1'} | orderBy: sort ">
+               <a  href="#!detail/{{p.id}}">
+                <div class="card mr-2" style="background-color: #1B2838;">
+                    <img  src="images/{{p.photo}}" style="width: 300px; height: 400px; " alt="">
+                </div>
+              </a>
+            </div>
+           
+                   
+          </div>
+        </div>
+        <br><br><br><br>
+        <div>
+          <p style="color: White;">BROWSE BY CATEGORY</p>
+          <div id="carouselExampleIndicatorsss" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicatorsss" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicatorsss" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicatorsss" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class=" d-block w-100 image-fluid" src="images/slide7.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class=" d-block w-100 image-fluid" src="images/slide8.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class=" d-block w-100 image-fluid" src="images/slide9.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicatorsss" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicatorsss" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <br><br><br><br>
+        <div style="background-color:#23262E; width: 970px; height: 150px; " class="">
+
+          <div style="width:400px; margin-left: 250px;">
+            <div>
+              <p style="color: rgb(176, 172, 172);  margin-left:70px;">Sign in to view personalized recommendations</p>
+            </div>
+
+            <div>
+              <button
+                style="background-color: #5c7e10; font-size: 15px; height: 35px; border-radius: 5px; border: none; color: white; margin-left: 200px;">Sign
+                In</button>
+            </div> <br>
+            <div>
+              <p style="color: rgb(176, 172, 172);margin-left: 110px;"> Or <a href="" style="color: white;">Sign up</a>
+                and join Steam for free</p>
+            </div>
+
+          </div>
+        </div>
+        <br><br><br>
+        <div style="background-color:#1B2838; ">
+          <p style="color: white;">BROWSE STEAM</p>
+          <div class="row">
+            <div class="col-md-3 col-6">
+               <button
+              style="width: 100%; height: 60px; border-radius: 5px; color: white; background-color: #00BBFF; font-size: 18px;">NEW
+              REALEASES</button>
+            </div>
+            <div class="col-md-3 col-6">
+              <button
+              style="width: 100%; height: 60px; border-radius: 5px; color: white; background-color: #00BBFF; font-size: 18px;">SPECIAL
+            </button>
+            </div>
+            <div class="col-md-3 col-6">
+              <button
+              style="width: 100%; height: 60px; border-radius: 5px; color: white; background-color: #00BBFF; font-size: 18px;">FREE
+              GAMES</button>
+            </div>
+            <div class="col-md-3 col-6">
+              <button
+              style="width: 100%; height: 60px; border-radius: 5px; color: white; background-color: #00BBFF; font-size: 18px;">BY
+              USER TAGS</button>
+            </div>
+            <div class="row text-center d-flex justify-content-center pt-4" style="margin-left: 380px ; ">
+              <div>
+                  <button ng-click="tang()" type="button"   style="height: 40px; background-color:#5c7e10; border: none; color: whitesmoke; border-radius: 10px;"><i class="fa-solid fa-up-long"></i> Giá tăng dần</button>
+                  <button ng-click="giam()" type="button"  style="height: 40px; background-color:#5c7e10 ; border: none; color: whitesmoke; border-radius: 10px;" ><i class="fa-solid fa-down-long"></i> Giá giảm dần</button>
+              </div>
+          </div>       
+          </div>
+        </div>
+        <br><br><br>
+        <div>
+          <div class="row">
+            <p style="color: White; margin-left: 13px;">POPULAR VR GAMES</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3" ng-repeat="p in products | filter : {loai : 'VR GAMES'} | orderBy: sort | limitTo : limit ">   
+               <a href="#!detail/{{p.id}}"><img src="images/{{p.photo}}" style="width: 220px; height: 140px; margin-top: 20px;" alt=""></a>  
+          </div>
+          </div>
+          <div class="row pt-4" >
+            <div class="d-flex justify-content-center" style="margin-left: 450px;">
+                <button ng-show="limit== 4" ng-click="loadmore()" type="button" style="background-color: #5c7e10; border:none; height: 40px; color: whitesmoke; border-radius: 10px;">Xem Thêm...</button>
+                    <button ng-show="limit == 12" ng-click="loadless()" type="button"  style="background-color: #5c7e10; border: none; height: 40px; color: whitesmoke; border-radius: 10px;" >...Thu gọn</button>
+            </div>
+        </div>
+          
+          
+        </div>
+        <br><br><br>
+        <div>
+          <p style="color: White;">UNDER 200.000đ</p>
+          <div class="row">
+              <div class="col-md-3" ng-repeat="p in products | filter : {loai : 'game3'} | orderBy: sort | limitTo : limit2">         
+                  <a href="#!detail/{{p.id}}"><img src="images/{{p.photo}}" style="width: 230px; height: 140px; margin-top: 20px;" alt=""></a>                
+              </div>
+          </div>
+          <div class="row pt-4" >
+            <div class="d-flex justify-content-center" style="margin-left: 450px;">
+                <button ng-show="limit2 == 4" ng-click="loadmoree()" type="button" style="background-color: #5c7e10; border:none; height: 40px; color: whitesmoke;border-radius: 10px;">Xem Thêm...</button>
+                    <button ng-show="limit2 == 12" ng-click="loadlesss()" type="button"  style="background-color: #5c7e10; border: none; height: 40px; color: whitesmoke; border-radius: 10px;" >...Thu gọn</button>
+            </div>
+        </div>
+          
+        </div>
+        <br><br><br>
+        <div>
+          <p style="color: White;">GAMES STREAMING NOW</p>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/slide13.png" alt="First slide">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        
+        
+
+      
+    </div>
+
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

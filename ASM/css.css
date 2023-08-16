@@ -1,0 +1,51 @@
+#dslab{
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+}
+#fontsize{
+    font-size: small;
+}
+#cartbodylaptop>h5{
+    color: black;
+}
+#cartbodylaptop>del{
+    color: darkgray;
+}
+#cartbodylaptop>em{
+    color: red;
+    font-weight: 700;
+}
+
+#cartbodygear>h5{
+    color: black;
+}
+
+#cartfootergear>del{
+    color: black;
+}
+#cartfootergear>em{
+    color: red;
+    font-weight: 700;
+}
+
+#fontsize-footer>div>p{
+    font-size: smaller;
+}
+#fontsize-footer>div>span{
+    font-size: smaller;
+    font-weight: 700;
+}
+
+#fontsize-footer>div>a{
+    color: black;
+    font-size: smaller;
+}
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}

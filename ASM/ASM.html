@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Steam</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="ASM.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+  
+</head>
+
+<body style="background-color: #1B2838;" ng-app="myApp">
+  <div ng-controller="myCtrl1">
+    
+    <header class="row header" style="background-color: #0E141B; ">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg   "
+          style="background-color: #0E141B; color: white; height: 100px; margin-left: 100px; position: relative; z-index: 2;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#!home">
+            <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+              width="176" height="44" alt="" class="justify-center">
+          </a>
+
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown text-white" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    STORE
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #171a21; ">
+                    <a class="dropdown-item" href="#">HOME</a>
+                    <a class="dropdown-item" href="#">DISCOVERY QUEUE</a>
+                    <a class="dropdown-item" href="#">WISHLIST</a>
+                    <a class="dropdown-item" href="#">POINTS SHOP</a>
+                    <a class="dropdown-item" href="#">NEWS</a>
+                    <a class="dropdown-item" href="#">STATS</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown text-white" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    COMMUNITY
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #171a21; ">
+                    <a class="dropdown-item" href="#">HOME</a>
+                    <a class="dropdown-item" href="#">DISCUSSIONS</a>
+                    <a class="dropdown-item" href="#">WORKSHOP</a>
+                    <a class="dropdown-item" href="#">MARKET</a>
+                    <a class="dropdown-item" href="#">BROADCASTS</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">SUPPORT</a>
+                </li>
+
+              </ul>
+              <div class="col-6" id="caidat">
+                <button style="background-color: #5c7e10; font-size: 12px;" class="text-white "><i
+                    class="fa-sharp fa-solid fa-download button"></i>Install steam</button>
+                <a href="" class="text-white dangnhap" style="font-size: 11px; text-decoration: none;">Login</a>
+                &nbsp;|&nbsp;
+                <a href="" class="text-white dropdown-toggle" style="font-size: 11px; text-decoration: none;"
+                  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Languages</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                  style="background-color: #171a21; width: 275px;">
+                  <a class="dropdown-item" href="#">VIETNAMESE</a>
+                  <a class="dropdown-item" href="#">ENGLISH</a>
+                  <a class="dropdown-item" href="#">CHINESE</a>
+                  <a class="dropdown-item" href="#">SPAINISH</a>
+                  <a class="dropdown-item" href="#">FRENCH</a>
+                  <a class="dropdown-item" href="#">...</a>
+
+                </div>
+
+              </div>
+              <div class="nav-item" style="margin-bottom:65px; margin-left: -150px;">
+                <a class="nav-link ms-2" href="#!cart"><i class="fa-solid fa-cart-shopping" style="color: whitesmoke;"></i><span style="color: white;"> {{cart.length}}</span></a>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <br>
+    <div class="container taiii">
+      <nav class="navbar navbar-expand-lg"
+        style="background-color: #417a9b; height: 35px; position: relative; z-index: 1;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentt"
+          aria-controls="navbarSupportedContentt" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContentt">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px;margin-left: 15px;">
+                Your Store
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #171a21;">
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Community Recommendations</a>
+                <a class="dropdown-item" href="#">Recently Viewed</a>
+                <a class="dropdown-item" href="#">Steam Curators</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px;margin-left: 15px;">
+                New & Noteworthy
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #171a21;">
+                <a class="dropdown-item" href="#">Steam Replay 2022</a>
+                <a class="dropdown-item" href="#">Top Sellers</a>
+                <a class="dropdown-item" href="#">Most Played</a>
+                <a class="dropdown-item" href="#">New & Trending</a>
+                <a class="dropdown-item" href="#">Special Offers</a>
+                <a class="dropdown-item" href="#">Recently Updates</a>
+                <a class="dropdown-item" href="#">Popular Upcoming</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px; margin-left: 15px;">
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #171a21;">
+                <a class="dropdown-item" style="color: aqua; font-size: 20px;" href="#">Special Sections</a>
+                <a class="dropdown-item" href="#">Free to Play</a>
+                <a class="dropdown-item" href="#">Demos</a>
+                <a class="dropdown-item" href="#">Early Access</a>
+                <a class="dropdown-item" href="#">Controller-Friendly</a>
+                <a class="dropdown-item" href="#">Remote Play</a>
+                <a class="dropdown-item" href="#">Software</a>
+                <a class="dropdown-item" href="#">Soundtracks</a>
+                <a class="dropdown-item" href="#">VR Titles</a>
+                <a class="dropdown-item" href="#">VR Hardware</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px;margin-left: 15px;">
+                Points Shop
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px; margin-left: 15px;">
+                News
+              </a>    
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="font-size: 13.5px;margin-left: 15px;">
+                Labs
+              </a>
+
+            </li>
+          </ul>
+          <div class="d-flex">
+            <input ng-model="search" placeholder="search" style="border:none; background-color: #305d8a; border-radius: 5px; color: whitesmoke; border: none;" type="text" >
+            
+                <button data-toggle="modal" data-target="#exampleModal" style="border:none; background-color:#305d8a ; border-radius: 5px;"  type="button"><i
+                  class="fa-solid fa-magnifying-glass"></i></button>
+                <div  data-toggle="modal" class="modal fade" id="exampleModal" tabindex="-1"   role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content" style="background-color: #1B2838; width: 300px; margin-left: 470px; margin-top: 160px;">
+                      <div class="modal-body" >
+                          <div  class="row" style="width: 350px;">
+                              <div class="card m-1" ng-repeat="p in productsdad | filter: search" style="background-color: #1B2838;">
+                                  
+                                  <div class="text-center">
+                                    <a href="#!detai/{{$index}}" class="text-center"><img width="140px" src="images/{{p.photo}}" class="poly-pord"></a>
+                                    <div style="color: whitesmoke;">{{p.name}}</div>
+                                    <div style="color: whitesmoke;">{{p.GiaBH}}</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer" >
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  
+                </div>   
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br> <br>
+    
+      <div class="col" ng-controller="myCtrl2">  
+          <ng-view></ng-view>
+      </div>
+  
+
+    <br><br>
+
+    <footer >
+      <div class="card col-sm-12 m-0 p-0" style="background-color: #23262E; border: none;" >
+        <div class="card body text-center" style="background-color: #23262E;">
+          <div>
+            <a class="navbar-brand" href="#" style="width: 970px;">
+              <hr width="970px" style="background-color: white;">
+              <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" width="100"
+                height="30" alt="" class="justify-center">
+              <p style="font-size: 12px; color: rgb(174, 173, 173); ;">© 2023 Valve Corporation. All rights reserved.
+                All
+                trademarks are property of their respective owners in the US and other countries.
+                VAT included in all prices where applicable. <br>
+                <p style="color: white; font-size: 12px;"> Privacy Policy | Legal | Steam Subscriber Agreement | Refunds
+                  |
+                  Cookies</p>
+              </p>
+              <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" width="100"
+                height="30" alt="" class="justify-center">
+              <hr width="970px" style="background-color: white;">
+
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  <script>
+    var indexCart = 0;
+    var app = angular.module("myApp", ["ngRoute"]);
+    app.controller("myCtrl1", function ($scope, $routeParams, $rootScope, $http) {
+      $scope.productsdad = [];
+            $http.get('products.json').then(function (reponse) {
+                $scope.productsdad = reponse.data;
+            })
+      
+    });
+    app.controller("myCtrl2", function ($scope, $routeParams, $rootScope, $http) {
+            $scope.limit = 4;
+            $scope.loadmore= function(){
+                $scope.limit += 8;
+            }
+            $scope.loadless = function(){
+                $scope.limit = 4;
+            }
+            $scope.limit2 = 4;
+            $scope.loadmoree= function(){
+                $scope.limit2 += 8;
+            }
+            $scope.loadlesss = function(){
+                $scope.limit2 = 4;
+            }
+
+            
+      //Thêm sản phẩm
+      $scope.addCart = function (p) {
+        if (typeof $rootScope.cart == 'undefined') {
+          $rootScope.cart = [];
+        };
+        $scope.countCart = $rootScope.cart.length;
+        if ($rootScope.cart.filter(i => i.id == p.id).length == 0) {
+          $rootScope.cart.push(p);
+          $rootScope.cart[$scope.countCart].quantity = 1;
+        }
+      }
+      $rootScope.sumMoney = 0;
+      //Tính tổng tiền
+      if (typeof $rootScope.cart != 'undefined') {
+        for (var i = 0; i < $rootScope.cart.length; i++) {
+          $rootScope.sumMoney = $rootScope.sumMoney + $rootScope.cart[i].quantity * $rootScope.cart[i].price;
+        }
+      }
+      $scope.addClick = function (index) {
+                $rootScope.cart[index].quantity = $rootScope.cart[index].quantity + 1;
+                if (typeof $rootScope.cart != 'undefined') {
+                    $rootScope.sumMoney = 0;
+                    for (var i = 0; i < $rootScope.cart.length; i++) {
+                        $rootScope.sumMoney = $rootScope.sumMoney + $rootScope.cart[i].quantity * $rootScope.cart[i].price;
+                    }
+                }
+            }
+            //dấu trừ
+            $scope.subClick = function (index) {
+                if ($rootScope.cart[index].quantity > 1)
+                    $rootScope.cart[index].quantity = $rootScope.cart[index].quantity - 1;
+                if (typeof $rootScope.cart != 'undefined') {
+                    $rootScope.sumMoney = 0;
+                    for (var i = 0; i < $rootScope.cart.length; i++) {
+                        $rootScope.sumMoney = $rootScope.sumMoney + $rootScope.cart[i].quantity * $rootScope.cart[i].price;
+                    }
+                }
+            }
+
+      //Xóa sản phẩm trong giỏ hàng
+      $scope.delProduct = function (index) {
+        $rootScope.cart.splice(index, 1);
+        if (typeof $rootScope.cart != 'undefined') {
+          $rootScope.sumMoney = 0;
+          for (var i = 0; i < $rootScope.cart.length; i++) {
+            $rootScope.sumMoney = $rootScope.sumMoney + $rootScope.cart[i].quantity * $rootScope.cart[i].price;
+          }
+        }
+      }
+      //tang giam
+      $scope.sort = 'price';
+            $scope.tang = function () {
+                $scope.sort = 'price';
+            }
+            $scope.giam = function () {
+                $scope.sort = '-price';
+            }
+      $scope.products = [];
+      $http.get('products.json').then(function (reponse) {
+        $scope.products = reponse.data;
+        $scope.index = $scope.products.findIndex(recond => recond.id == $routeParams.url)
+      })
+
+      $scope.index = $routeParams.url;
+    });
+
+    
+        
+    app.config(function ($routeProvider) {
+      $routeProvider
+        .when("/detail/:url", {
+          templateUrl: "detail.html?" + Math.random(),
+          controller: "myCtrl2"
+        })
+        .when("/home", {
+          templateUrl: "list.html?" + Math.random(),
+          controller: "myCtrl2"
+        })
+        .when("/cart", {
+          templateUrl: "cart.html?" + Math.random(),
+          controller: "myCtrl2"
+        })
+        .otherwise({
+          templateUrl: "list.html",
+        })
+      });
+    
+
+  </script>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-menu>.dropdown-item{
+    font-size: 12px;
+    color: #c6d6df;
+}
+#caidat{
+    margin-bottom: 70px;
+}
+.taiii{
+    max-width: 1000px !important;
+}
+.slide{
+    max-width: 1000px !important;
+}
+.slide2{
+    max-width: 1000px !important;
+}
+::placeholder{
+    color: rgb(123, 121, 121);
+}
+.show{
+    display: none;
+}
+
+    
+
+
+
